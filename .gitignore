@@ -8,5 +8,8 @@ build.gradle
 /.settings/
 /bin/
 
+# IntelliJ
+*.iml
+
 # Ignore gradle
 /build/
