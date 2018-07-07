@@ -1,3 +1,12 @@
-# Simple stuff modules should ignore
-*.iml
+# Modules get a copy of build.gradle as they are not allowed to have their own (for build security / sandboxing)
 build.gradle
+
+# Ignore Eclipse
+/.checkstyle
+/.project
+/.classpath
+/.settings/
+/bin/
+
+# Ignore gradle
+/build/
